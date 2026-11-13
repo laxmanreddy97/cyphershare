@@ -75,7 +75,7 @@ python server.py
 *   Ensure the Android device is connected to the **same Wi-Fi router** as the computer running the Python servers.
 *   Open the app, select an image from the gallery or take a photo, and tap **"Process via Servers"**.
 
-## Demonstration Guide for Evaluation
+## Demonstration Guide
 When you press the process button on the app, watch the two terminal windows running the Python scripts. 
 *   The `server.py` terminal will show the incoming noise-injected tensor arriving (demonstrating the Cryptographic Noise and SMPC). 
 *   The `trusted_owner.py` terminal will show the reconstruction logic and Cosine Similarity Gradient Filtering validation, proving the architecture's security mechanisms are actively defending the system.
